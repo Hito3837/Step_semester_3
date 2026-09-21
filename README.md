@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 21-09-2026
 
 **Today's Work:**
+- Added Week 6 Category A class problems (Inheritance & Polymorphism practice, CineHub EventTicket family) to `feature/session_6` under the `polymorphism` package in `class_problems`:
+  - P1_EventTicketFoundation (validated EventTicket ctor as only validation site, WorkshopTicket via super(...), registerBatch counting rejections with try/catch)
+  - P2_TicketFamilyClassifier (multilevel PremiumWorkshopTicket + hierarchical HackathonTicket, instanceof-only classifyGeneration, polymorphic getTotalBalanceDue, printTicket overrides)
+  - P3_LateFeeAuditTrail (@Override applyLateFee doubling via super.applyLateFee(amount * 2), private late-fee history with defensive copies)
+  - P4_TicketAnnouncer (polymorphic batchPrint with a single StringBuilder, instanceof-guarded downcast to track)
+  - P5_TicketIssuanceSettlement (final public ticketId from shared static counter "TCK-1001", charAt/isDigit/isUpperCase promo-code check, overloaded pay, null-safe processNightlySettlement)
+- All five compile-clean in per-file temp dirs and match every PDF sample output.
+
+**Next Session Plan:**
+- Add dated log entries for each completed coding session above this one.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 21-09-2026
+
+**Today's Work:**
 - Added Week 6 Category A assignment problems (Inheritance & Polymorphism) to `feature/session_6` under the `polymorphism` package in `assigment_problems` (branched from `develop`):
   - RaceEntry.java (P1: validated base constructor as the only validation site, RunnerEntry via `super(...)`, registerBatch counting rejections with try/catch)
   - EliteRunnerEntry.java (P2: multilevel EliteRunnerEntry + hierarchical RelayTeamEntry, instanceof-only classifyGeneration, polymorphic getTotalBalanceDue, announce() overrides)
