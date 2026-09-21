@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 21-09-2026
 
 **Today's Work:**
+- Added Week 5 live-session class problems (P1-P5) to `feature/session_5` under the `inheritance` package in `class_problems`:
+  - P1_AccessRuleEngine (classifyAccess from Java visibility rules, summarizeBatch counter, PatientRecord with no no-arg constructor + patientId blank/whitespace/short rejection)
+  - P2_CrossPackageReachLinter (extended classifyAccess for protected cross-package subclass OWN_TYPE vs PARENT_TYPE, describeContext title-case formatter)
+  - P3_VitalsMonitoringGuard (PatientVitals all-private fields, silent range rejection via recordReading reused by the seeding constructor, defensive copies)
+  - P4_PatientProfileJavaBean (three constructors chained with this(...), JavaBean getX/setX/isX, write-once setPatientId, write-only lockerPin)
+  - P5_ImmutableDischargeSummary (MED-[A-Z] medication validation, final fields + defensive copies + wither, CriticalCareDischargeSummary extends, static-block shared state, instanceof batch settlement, null-safe)
+- All five compile-clean in per-file temp dirs and match every PDF sample output.
+
+**Next Session Plan:**
+- Add dated log entries for each completed coding session above this one.
+
+**Issues Faced:**
+- PDF titled "Access Modifiers, Encapsulation & Object Modeling" (internal "Week 6" branding); filed under the Week 5 inheritance package per handoff. P5 spec said "class itself final" but also required CriticalCareDischargeSummary to extend it — kept final fields/defensive copies for immutability and made the leaf subclass the final type instead.
+
+---
+
+## Date: 21-09-2026
+
+**Today's Work:**
 - Added Week 4 live-session class problems (P1-P5) to `feature/session_4` under the `constructors` package in `class_problems`:
   - P1_BusTicketBookingValidator (BusTicket: parameterized constructor, meaningful-name validation, processBatch)
   - P2_FareSplitter (chained constructors, fair paisa-exact fare split, overdue confirmation validation)
