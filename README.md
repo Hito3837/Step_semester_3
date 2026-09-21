@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 21-09-2026
 
 **Today's Work:**
+- Added Week 4 live-session class problems (P1-P5) to `feature/session_4` under the `constructors` package in `class_problems`:
+  - P1_BusTicketBookingValidator (BusTicket: parameterized constructor, meaningful-name validation, processBatch)
+  - P2_FareSplitter (chained constructors, fair paisa-exact fare split, overdue confirmation validation)
+  - P3_BusRouteRanking (this-clash resolution, constructor chaining with default priority, stable insertion sort ranking)
+  - P4_BoardingPenaltyCalculator (final class/field/method, O(1) tiered penalty with 1% floor)
+  - P5_NightlyFleetReconciliation (static block state, chained provisional constructor, Sleeper subclass with `instanceof` settlement)
+- All five compile-clean and match the PDF sample outputs (verified per-file; P5 required a null-guard in processBatch after a first-run NPE).
+
+**Next Session Plan:**
+- Add dated log entries for each completed coding session above this one.
+
+**Issues Faced:**
+- P5 first ran into a NullPointerException: calling `accounts[i].processAccount(...)` on a null element before the guard; fixed by checking `accounts[i] == null` in the loop before invoking.
+
+---
+
+## Date: 21-09-2026
+
+**Today's Work:**
 - Added Week 3 live-session class problems (F1-F5: AttendanceSystem, FeeAccountInheritance, HostelAllocation, InstanceVsStatic, FeeHostelMiniSystem) to `feature/session_3` under the `class_object` package in `class_problems`.
 
 **Next Session Plan:**
