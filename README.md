@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 21-09-2026
 
 **Today's Work:**
+- Added Week 6 Category A assignment problems (Inheritance & Polymorphism) to `feature/session_6` under the `polymorphism` package in `assigment_problems` (branched from `develop`):
+  - RaceEntry.java (P1: validated base constructor as the only validation site, RunnerEntry via `super(...)`, registerBatch counting rejections with try/catch)
+  - EliteRunnerEntry.java (P2: multilevel EliteRunnerEntry + hierarchical RelayTeamEntry, instanceof-only classifyGeneration, polymorphic getTotalBalanceDue, announce() overrides)
+  - RunnerEntry.java (P3: `@Override` applyLateFee doubling via `super.applyLateFee(amount * 2)`, private late-fee history with defensive copies)
+  - RaceAnnouncer.java (P4: polymorphic announceAll with a single StringBuilder, instanceof-guarded downcast to team size)
+  - NightlySettlementEngine.java (P5: final entryCode from shared static counter, charAt/isDigit/isUpperCase discount-code check, overloaded pay, null-safe settleNight)
+- All five compile-clean in per-file temp dirs and match every PDF sample output (bib counter reached 4 after 4 valid constructions; the rejected "B1" did not increment it).
+
+**Next Session Plan:**
+- Add dated log entries for each completed coding session above this one.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 21-09-2026
+
+**Today's Work:**
 - Added Week 5 live-session class problems (P1-P5) to `feature/session_5` under the `inheritance` package in `class_problems`:
   - P1_AccessRuleEngine (classifyAccess from Java visibility rules, summarizeBatch counter, PatientRecord with no no-arg constructor + patientId blank/whitespace/short rejection)
   - P2_CrossPackageReachLinter (extended classifyAccess for protected cross-package subclass OWN_TYPE vs PARENT_TYPE, describeContext title-case formatter)
