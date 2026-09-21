@@ -5,6 +5,19 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 21-09-2026
 
 **Today's Work:**
+- Added Week 3 live-session class problems (F1-F5: AttendanceSystem, FeeAccountInheritance, HostelAllocation, InstanceVsStatic, FeeHostelMiniSystem) to `feature/session_3` under the `class_object` package in `class_problems`.
+
+**Next Session Plan:**
+- Add dated log entries for each completed coding session above this one.
+
+**Issues Faced:**
+- F1/F4/F5 each declare their own `SrmStudent` and F2/F3/F5 re-declare `FeeAccount`/`HostelRoom`; files are standalone per problem and are not compiled together.
+
+---
+
+## Date: 21-09-2026
+
+**Today's Work:**
 - Added Session 5 assignment problems (AccessChecker, BookInventory, CirculationLedger, LibraryMember, LibraryMemberJavaBean, LoanReceipt) to `feature/session_5` under the `inheritance` package in `assigment_problems`.
 - Marked with a placeholder `class_problems` package; to be filled with the live-session problems.
 
