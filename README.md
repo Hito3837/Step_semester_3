@@ -2,6 +2,25 @@
 
 Daily progress log for Semester 3 coursework (Version Control & Daily Workflow Standard).
 
+## Date: 10-10-2026
+
+**Today's Work:**
+- Added CodInClub OOP design class problems (Week 7) to `feature/session_7` under the `oops_design` package in `class_problems` (branched from `develop`):
+  - P1_OnlineExaminationSystem (abstract Question with MCQQuestion + TrueFalseQuestion, Attempt IN_PROGRESS -> SUBMITTED one-way state, single submitted attempt per student/exam, polymorphic evaluation 1/2 correct)
+  - P2_VehicleRentalSystem (abstract Vehicle with Standard $50/day, Luxury $100/day, SUV $75/day; RentalService rent/charge/return, double-booking refused, Luxury 3 days $300.00 / Standard 5 days $250.00)
+  - P3_HotelBookingSystem (STANDARD $150 / DELUXE $200 / SUITE $300 per night, overlap check rejects Deluxe 2024-12-03 to 2024-12-07, cancellation only before checkIn.minusDays(1); $800.00 / $600.00 totals)
+  - P4_EmployeeLeaveManagement (FullTime/PartTime/Contract via abstract Employee, PENDING -> APPROVED/REJECTED guard inside LeaveRequest, illegal revert refused)
+  - P5_FoodOrderPaymentSystem (Order-LineItem composition, non-empty invariant, IPaymentMethod with CreditCard success / DigitalWallet failure, order ids only consumed on placement so notifications read #123 and #124)
+- All five compile-clean in per-file temp dirs and match every PDF sample output.
+
+**Next Session Plan:**
+- Solve the Week 8 Category A practice + coding assignment PDFs from Downloads (whichever session is next) and log it here.
+
+**Issues Faced:**
+- None.
+
+---
+
 ## Date: 21-09-2026
 
 **Today's Work:**
