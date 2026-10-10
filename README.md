@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 10-10-2026
 
 **Today's Work:**
+- Added Week 10 linked-list assignment problems (Category A Coding Assignment, Problems 2/5/6/9/10) to `feature/session_10` under the new `linkedlists` topic package in `assigment_problems` (same branch as the Week 10 class problems):
+  - MergeTicketCounters (in-place merge with one dummy node, duplicates kept, O(m+n)/O(1))
+  - CancelKthLastOrder (lead k+1 ahead of dummy-anchored trail, single pass, head-removal needs no special case)
+  - BrowserHistoryPortal (own doubly linked list, visit drops forward chain to GC, back/forward clamp at ends)
+  - PolynomialCalculator (exponent-merge in one pass, zero-sum terms skipped, standard-form printing)
+  - PalindromeTrainCode (middle-find + reverse-compare-restore, O(n)/O(1), list verified unchanged after)
+- All five compile-clean in per-file temp dirs and match every PDF sample output exactly. (Each file defines its own Node type per the PDF; per-file compilation keeps programs self-contained. Problems 1/3/4/7/8 of the assignment PDF were not pasted — still pending.)
+
+**Next Session Plan:**
+- Add the remaining assignment problems (1/3/4/7/8) once pasted, then take up the next week's session (topic TBD).
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
 - Added Week 10 class problems (OOP + collections + binary search) to `feature/session_10` under the `oops_collections` package in `class_problems` (branched from `develop`):
   - P1_SmartHomePlatform (Device base + Dimmable/Schedulable/EnergyMonitor CAN-DO interfaces, instanceof-gated commands with rejection messages)
   - P2_CustomerRegistry (equals/hashCode on id+name so HashSet dedupes across branches, unique count 2)
