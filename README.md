@@ -5,6 +5,22 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 10-10-2026
 
 **Today's Work:**
+- Added Week 7 Category A practice + assignment problems (abstract classes & interfaces) to the recreated `feature/session_7` under the `abstraction` package (branched from `develop`):
+  - Practice in `class_problems`: P1_CheckoutPaymentHandler (abstract PaymentMethod, final TXN-1001/1002 ids, note-appending overload, upcasting), P2_HomeSafetyAlertNetwork (Alertable works with zero shared ancestry, DualZone super-reuse, instanceof downcast), P3_QuarterlyBonusCalculator (this()/super() chaining, negative-salary rejection, interface-based audit check), P4_UniversalMediaLauncher (IS-A AudioFile vs CAN-DO Podcast, play(int) overload, MF-1001), P5_CommunityLibraryCheckout (siblings with different capabilities, reserveIfSupported(Object))
+  - Assignments in `assigment_problems`: DrawingCanvas (abstract Shape, SHP-1001 ids, uniform scale 4.0 to 64.0, circle ~78.54), DataExport (unrelated classes, one shared counter, exportAll + total 2), FleetMaintenanceTracker (3-deep hierarchy with super-reuse, Insurable as orthogonal interface), ArenaBattleSimulator (Warrior dual interfaces, standalone Trap, CHR-1001), HomeControlPanel (sibling capability split, standalone MobileApp, HD-1001 serials)
+- All ten compile-clean in per-file temp dirs and match every PDF sample output (one real bug caught: Square scale(2.0) must grow the side once to 64.0, not twice).
+
+**Next Session Plan:**
+- Take up the next week's session problems (topic TBD) and log them here.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
 - Added Week 8 Category A assignment problems to `feature/session_8` under the `oops_design` package in `assigment_problems` (same branch as the Week 8 class problems):
   - HackathonJudgingDesk (ScoringPolicy interface with Innovation 50/30/20 vs Open average, 2–4 member + one-team-per-student rules, OPEN → JUDGING → PUBLISHED lock, final 7.90, rescore rejected)
   - SwiftShipParcelTracker (BOOKED → … → DELIVERED transitions inside Parcel, Express 2 kg = ₹110.00, Fragile reuses Standard via composition, SMS+Email fan-out, cancel only while BOOKED, bad jump rejected)
