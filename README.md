@@ -5,6 +5,22 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 10-10-2026
 
 **Today's Work:**
+- Added Week 9 Data Structures practice + assignment problems to `feature/session_9` under the `datastructures` package (branched from `develop`):
+  - Practice in `class_problems`: P1_PairSumSorted (two pointers, O(n)/O(1) vs O(n^2) brute force), P2_WarehouseGridScan (single pass, strict-greater keeps first max, O(m*n)/O(1)), P3_LibraryCatalogLookup (hand-rolled binary search, O(log n)), P4_LibraryLookupBinarySearch (same duplicated PDF task via Arrays.binarySearch + Comparator), P5_MaxSumSubarrayK (sliding window O(n)/O(1) vs O(n*k) naive)
+  - Assignments in `assigment_problems`: MallFootfallReport (prefix sums O(n+q)/O(n), [22, 31, 27, 9]), LongestBudgetStreak (variable window, non-negativity essential, (4, 4)/(0, -1)), NetBalancePeriodCounter (prefix-frequency map O(n)/O(n), 4/0), ExamScoreBandCounter (dual lower-bounds O(log n), 6/0), SpiralStockAuditRoute (four-boundary spiral O(m*n)/O(1))
+- All ten compile-clean in per-file temp dirs and match every PDF sample output exactly.
+
+**Next Session Plan:**
+- Take up the next week's session problems (topic TBD) and log them here.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
 - Added Week 7 Category A practice + assignment problems (abstract classes & interfaces) to the recreated `feature/session_7` under the `abstraction` package (branched from `develop`):
   - Practice in `class_problems`: P1_CheckoutPaymentHandler (abstract PaymentMethod, final TXN-1001/1002 ids, note-appending overload, upcasting), P2_HomeSafetyAlertNetwork (Alertable works with zero shared ancestry, DualZone super-reuse, instanceof downcast), P3_QuarterlyBonusCalculator (this()/super() chaining, negative-salary rejection, interface-based audit check), P4_UniversalMediaLauncher (IS-A AudioFile vs CAN-DO Podcast, play(int) overload, MF-1001), P5_CommunityLibraryCheckout (siblings with different capabilities, reserveIfSupported(Object))
   - Assignments in `assigment_problems`: DrawingCanvas (abstract Shape, SHP-1001 ids, uniform scale 4.0 to 64.0, circle ~78.54), DataExport (unrelated classes, one shared counter, exportAll + total 2), FleetMaintenanceTracker (3-deep hierarchy with super-reuse, Insurable as orthogonal interface), ArenaBattleSimulator (Warrior dual interfaces, standalone Trap, CHR-1001), HomeControlPanel (sibling capability split, standalone MobileApp, HD-1001 serials)
