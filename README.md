@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 10-10-2026
 
 **Today's Work:**
+- Added Week 10 class problems (OOP + collections + binary search) to `feature/session_10` under the `oops_collections` package in `class_problems` (branched from `develop`):
+  - P1_SmartHomePlatform (Device base + Dimmable/Schedulable/EnergyMonitor CAN-DO interfaces, instanceof-gated commands with rejection messages)
+  - P2_CustomerRegistry (equals/hashCode on id+name so HashSet dedupes across branches, unique count 2)
+  - P3_StudentMarksGrid (ragged 2D array for missing Eng marks, totals + per-subject toppers)
+  - P4_ProductPriceFinder (dual lower-bound binary search O(log n): indices 1/5, count 4)
+  - P5_LibraryPlatform (Book reservable-only / EBook downloadable-only siblings, ID-sorted shelf + binary-search FIND, duplicate rejection)
+- All five compile-clean in per-file temp dirs and match every PDF sample output exactly. (Customer intentionally reuses the Week 8 name per the PDF; per-file compilation keeps programs self-contained.)
+
+**Next Session Plan:**
+- Take up the next week's session problems (topic TBD) and log them here.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
 - Added Week 9 Data Structures practice + assignment problems to `feature/session_9` under the `datastructures` package (branched from `develop`):
   - Practice in `class_problems`: P1_PairSumSorted (two pointers, O(n)/O(1) vs O(n^2) brute force), P2_WarehouseGridScan (single pass, strict-greater keeps first max, O(m*n)/O(1)), P3_LibraryCatalogLookup (hand-rolled binary search, O(log n)), P4_LibraryLookupBinarySearch (same duplicated PDF task via Arrays.binarySearch + Comparator), P5_MaxSumSubarrayK (sliding window O(n)/O(1) vs O(n*k) naive)
   - Assignments in `assigment_problems`: MallFootfallReport (prefix sums O(n+q)/O(n), [22, 31, 27, 9]), LongestBudgetStreak (variable window, non-negativity essential, (4, 4)/(0, -1)), NetBalancePeriodCounter (prefix-frequency map O(n)/O(n), 4/0), ExamScoreBandCounter (dual lower-bounds O(log n), 6/0), SpiralStockAuditRoute (four-boundary spiral O(m*n)/O(1))
