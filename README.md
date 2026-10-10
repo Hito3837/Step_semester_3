@@ -5,6 +5,25 @@ Daily progress log for Semester 3 coursework (Version Control & Daily Workflow S
 ## Date: 10-10-2026
 
 **Today's Work:**
+- Added Week 8 Category A assignment problems to `feature/session_8` under the `oops_design` package in `assigment_problems` (same branch as the Week 8 class problems):
+  - HackathonJudgingDesk (ScoringPolicy interface with Innovation 50/30/20 vs Open average, 2–4 member + one-team-per-student rules, OPEN → JUDGING → PUBLISHED lock, final 7.90, rescore rejected)
+  - SwiftShipParcelTracker (BOOKED → … → DELIVERED transitions inside Parcel, Express 2 kg = ₹110.00, Fragile reuses Standard via composition, SMS+Email fan-out, cancel only while BOOKED, bad jump rejected)
+  - SmartLabControlPanel (Device holds Capability objects — composition over inheritance, per-capability range guards, scene applies to capable devices only: 5 actions, 12°C rejected, runtime Brightness added to Projector)
+  - ElectiveSeatRush (polymorphic credit limits Regular 24 / Honors 28 / Exchange 20 checked before seats, private FIFO waitlist, atomic drop-and-promote: Neha 16/20)
+  - CanteenSmartCard (balance DERIVED from transaction ledger so balance = sum holds structurally, Hosteller 10% off: 108/54/360-vs-338, one-time refund, mini-statement +500/-108/-54/+108 = ₹446.00; stdout forced to UTF-8 so ₹/→/°C bytes are exact)
+- All five compile-clean in per-file temp dirs and match every PDF sample output (byte-verified: no '?' replacements).
+
+**Next Session Plan:**
+- Take up the next week's session problems (topic TBD) and log them here.
+
+**Issues Faced:**
+- None.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
 - Added CodInClub OOP design class problems (Week 8) to `feature/session_8` under the `oops_design` package in `class_problems` (branched from `develop`):
   - P1_OnlineExaminationSystem (abstract Question with MCQQuestion + TrueFalseQuestion, Attempt IN_PROGRESS -> SUBMITTED one-way state, single submitted attempt per student/exam, polymorphic evaluation 1/2 correct)
   - P2_VehicleRentalSystem (abstract Vehicle with Standard $50/day, Luxury $100/day, SUV $75/day; RentalService rent/charge/return, double-booking refused, Luxury 3 days $300.00 / Standard 5 days $250.00)
